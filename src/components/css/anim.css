@@ -1,0 +1,24 @@
+.icon:hover {
+  color: red;
+  transition: color 600ms;
+}
+
+.hoverColor {
+  color: white;
+}
+
+.hoverColor:hover {
+  color: #da2530;
+  cursor: pointer;
+  transition: color 600ms;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  cursor: default;
+  user-select: none;
+}
