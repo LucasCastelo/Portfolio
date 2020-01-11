@@ -33,7 +33,12 @@ const Intro = () => {
     height: '90%'
   };
 
-  const parentStyles = { backgroundImage: `url(${bg})`, height: '100vh' };
+  const mainStyles = {
+    backgroundImage: `url(${bg})`,
+    height: '100vh',
+    backgroundSize: 'cover',
+    minWidth: '100vw'
+  };
   //STYLES END --------------------
 
   //fontFamily: '"Proza Libre", sans-serif'
@@ -42,7 +47,7 @@ const Intro = () => {
   //
 
   return (
-    <div style={parentStyles}>
+    <div style={mainStyles}>
       <div className='container center-align white-text' style={introStyle}>
         <LanguageSelector></LanguageSelector>
         <div style={holsterStyles}>

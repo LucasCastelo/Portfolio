@@ -15,7 +15,9 @@ const About = () => {
   const mainStyle = {
     backgroundImage: `url(${bg})`,
     minHeight: '100vh',
-    backgroundSize: 'cover'
+    backgroundSize: 'cover',
+    display: 'inline-block',
+    minWidth: '100vw'
   };
 
   // CSS ABOUT END---------------------------

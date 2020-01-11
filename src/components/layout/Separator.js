@@ -15,13 +15,13 @@ const Separator = props => {
             <img
               src={separator}
               alt=''
-              style={{ marginBottom: '20px', width: '12vw' }}
+              style={{ marginBottom: '20px', width: '10vw' }}
             />
           </div>
         </div>
       ) : (
-        <div className={'col s12 center-align ' + classesProp} style={cssProp}>
-          <img src={separator} alt='' style={{ width: '12vw' }} />
+        <div className={'center-align ' + classesProp} style={cssProp}>
+          <img src={separator} alt='' style={{ width: '10vw' }} />
         </div>
       )}
     </React.Fragment>

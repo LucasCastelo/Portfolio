@@ -60,10 +60,10 @@ const OtherQual = ({ qual }) => {
       <Separator />
       {qual[indexSel].items.map(item => {
         return (
-          <React.Fragment>
+          <div key={Math.random()} className='center-align'>
             <p style={nameStyle}>{item.name}</p>
             <p style={descStyle}>{item.desc}</p>
-          </React.Fragment>
+          </div>
         );
       })}
     </div>

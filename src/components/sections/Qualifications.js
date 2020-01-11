@@ -11,7 +11,9 @@ const Qualifications = () => {
   const mainStyle = {
     backgroundImage: `url(${bg})`,
     minHeight: '100vh',
-    paddingBottom: '1vw'
+    paddingBottom: '1vw',
+    backgroundSize: 'cover',
+    minWidth: '100vw'
   };
 
   return (

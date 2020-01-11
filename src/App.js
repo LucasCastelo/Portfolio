@@ -8,6 +8,7 @@ import { LanguagesProvider } from './contexts/Languages';
 //MATERIALIZE IMPORT
 import 'materialize-css/dist/css/materialize.min.css';
 import M from 'materialize-css';
+import Portfolio from './components/sections/Portfolio';
 
 function App() {
   useEffect(() => {
@@ -22,7 +23,8 @@ function App() {
       >
         <Intro></Intro>
         <About></About>
-        <Qualifications />
+        <Qualifications></Qualifications>
+        <Portfolio></Portfolio>
       </div>
     </LanguagesProvider>
   );

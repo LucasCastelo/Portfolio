@@ -6,10 +6,16 @@ import OtherQual from './OtherQual';
 export const TecMenu = ({ qual }) => {
   const [descIndex, setDescIndex] = useState(0);
   const [lastId, setLastId] = useState('');
-  const [qualChange, setQualChange] = useState('false');
 
   useEffect(() => {
-    setQualChange(true);
+    if (lastId !== '') {
+      const idPart = qual.tecs[0].id.slice(0, 2);
+      const lastIdPart = lastId.slice(2, 3);
+
+      setLastId(idPart + lastIdPart);
+
+      document.getElementById(idPart + lastIdPart).style.opacity = '1';
+    }
   }, [qual]);
 
   const selStyle = {
@@ -28,21 +34,10 @@ export const TecMenu = ({ qual }) => {
     transition: 'border 500ms'
   };
 
-  const titleStyle = { fontSize: '2.5vw', marginTop: '0' };
+  const titleStyle = { fontSize: '2vw', marginTop: '0' };
 
   const selectDesc = (index, id) => {
     setDescIndex(index);
-
-    if (qualChange === true) {
-      const idPart = id.slice(0, 2);
-      const lastIdPart = lastId.slice(2, 3);
-
-      setLastId(idPart + lastIdPart);
-
-      console.log('LANG CHANGE: ' + lastId);
-
-      setQualChange(false);
-    }
 
     if (lastId !== '') {
       document.getElementById(lastId).style.opacity = '0.4';
@@ -66,14 +61,13 @@ export const TecMenu = ({ qual }) => {
 
         {qual.tecs.map((tec, index) => {
           return (
-            <div style={{ paddingBottom: '20px' }}>
+            <div style={{ paddingBottom: '20px' }} key={tec.id}>
               <p
                 className={'hoverColor'}
                 onClick={() => {
                   selectDesc(index, tec.id);
                 }}
                 style={tecStyle}
-                key={tec.id}
               >
                 {tec.name}
               </p>
