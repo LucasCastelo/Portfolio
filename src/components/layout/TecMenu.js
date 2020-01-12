@@ -34,8 +34,6 @@ export const TecMenu = ({ qual }) => {
     transition: 'border 500ms'
   };
 
-  const titleStyle = { fontSize: '2vw', marginTop: '0' };
-
   const selectDesc = (index, id) => {
     setDescIndex(index);
 
@@ -50,8 +48,8 @@ export const TecMenu = ({ qual }) => {
 
   return (
     <React.Fragment>
-      <div className='col m3 center-align'>
-        <h3 className='col s12 white-text' style={titleStyle}>
+      <div className='col m3 center-align '>
+        <h3 className='col s12 white-text work-font-medium medium-font'>
           {qual.techTitle}
         </h3>
         <Separator
@@ -61,9 +59,13 @@ export const TecMenu = ({ qual }) => {
 
         {qual.tecs.map((tec, index) => {
           return (
-            <div style={{ paddingBottom: '20px' }} key={tec.id}>
+            <div
+              style={{ paddingBottom: '20px' }}
+              key={tec.id}
+              className='hover-color open-font'
+            >
               <p
-                className={'hoverColor'}
+                className='cursor-pointer'
                 onClick={() => {
                   selectDesc(index, tec.id);
                 }}

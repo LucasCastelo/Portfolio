@@ -12,17 +12,13 @@ const About = () => {
 
   //CSS ABOUT --------------------------
 
-  const mainStyle = {
-    backgroundImage: `url(${bg})`,
-    minHeight: '100vh',
-    backgroundSize: 'cover',
-    display: 'inline-block',
-    minWidth: '100vw'
+  const bgStyle = {
+    backgroundImage: `url(${bg})`
   };
 
   // CSS ABOUT END---------------------------
   return (
-    <div style={mainStyle}>
+    <div style={bgStyle} className='bg-style'>
       <div className='container'>
         <QuestionIntro intro={about.intro} answer={about.answer} />
         <div className='row center-align'>

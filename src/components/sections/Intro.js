@@ -9,16 +9,14 @@ const Intro = () => {
 
   const { intro } = Language.languageContent;
 
-  //STYLES ---------------------
+  //------------------------------------
+  //---------- ATYPICAL CSS ------------
+  //------------------------------------
   const titleStyle = {
-    fontFamily: '"Work Sans", sans-serif',
-    fontWeight: '500',
     fontSize: '8vh'
   };
 
   const subtitleStyle = {
-    fontFamily: '"Work Sans", sans-serif',
-    fontWeight: '100',
     fontSize: '4vh'
   };
 
@@ -39,12 +37,10 @@ const Intro = () => {
     backgroundSize: 'cover',
     minWidth: '100vw'
   };
-  //STYLES END --------------------
 
-  //fontFamily: '"Proza Libre", sans-serif'
-  //fontFamily: '"Open Sans", sans-serif'
-  //fontFamily: '"Work Sans", sans-serif'
-  //
+  //------------------------------------
+  //----------END ATYPICAL CSS ---------
+  //------------------------------------
 
   return (
     <div style={mainStyles}>
@@ -52,12 +48,14 @@ const Intro = () => {
         <LanguageSelector></LanguageSelector>
         <div style={holsterStyles}>
           <div>
-            <h1 style={titleStyle}>
+            <h1 style={titleStyle} className='work-font-medium'>
               {intro.salute}
-              <span className='red-text'>, </span>
+              <span className='red-text work-font'>, </span>
               {intro.introduction}
             </h1>
-            <h4 style={subtitleStyle}>Fullstack Developer Jr.</h4>
+            <h4 style={subtitleStyle} className='work-font-thin'>
+              Fullstack Developer Jr.
+            </h4>
             <img
               className='circle'
               style={profileStyles}

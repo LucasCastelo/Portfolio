@@ -8,16 +8,12 @@ import Separator from '../layout/Separator';
 const Qualifications = () => {
   const Language = useContext(LanguagesContext);
   const { qual } = Language.languageContent;
-  const mainStyle = {
-    backgroundImage: `url(${bg})`,
-    minHeight: '100vh',
-    paddingBottom: '1vw',
-    backgroundSize: 'cover',
-    minWidth: '100vw'
+  const bgStyle = {
+    backgroundImage: `url(${bg})`
   };
 
   return (
-    <div style={mainStyle}>
+    <div style={bgStyle} className='bg-style'>
       <div className='container'>
         <QuestionIntro intro={qual.intro} answer={qual.answer} />
         <div className='row'>
