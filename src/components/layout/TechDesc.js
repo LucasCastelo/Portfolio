@@ -18,8 +18,10 @@ const TechDesc = props => {
   const { descIndex, tecs } = props;
 
   return (
-    <div className='col l6 m6 s12 center-align'>
-      <h2 className='work-font-thin white-text'>{tecs[descIndex].name}</h2>
+    <div className='col l6 s12 center-align'>
+      <h2 className='work-font-thin white-text big-font'>
+        {tecs[descIndex].name}
+      </h2>
       <h3 style={questStyles} className={questClasses}>
         {learn}
       </h3>

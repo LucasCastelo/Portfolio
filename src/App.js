@@ -11,6 +11,7 @@ import './components/css/main.css';
 //MATERIALIZE IMPORT
 import 'materialize-css/dist/css/materialize.min.css';
 import M from 'materialize-css';
+import Contact from './components/sections/Contact';
 
 function App() {
   useEffect(() => {
@@ -23,10 +24,11 @@ function App() {
         className='App hide-y'
         style={{ maxWidth: '100vw', backgroundColor: '#2A363B' }}
       >
-        <Intro></Intro>
-        <About></About>
-        <Qualifications></Qualifications>
-        <Portfolio></Portfolio>
+        <Intro />
+        <About />
+        <Qualifications />
+        <Portfolio />
+        <Contact />
       </div>
     </LanguagesProvider>
   );

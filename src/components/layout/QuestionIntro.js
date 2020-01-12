@@ -9,7 +9,7 @@ const QuestionIntro = props => {
     <div>
       <div className='row' style={{ marginBottom: '0' }}>
         <p
-          className='col s12 center-align red-text work-font-thin small-font'
+          className='col s12 center-align red-text open-font small-font'
           style={{ marginBottom: '0' }}
         >
           {intro}

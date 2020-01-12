@@ -113,7 +113,7 @@ export const Portuguese = {
       }
     ]
   },
-  contact: {}
+  contact: 'Contato'
 };
 
 export const German = {
@@ -233,7 +233,7 @@ export const German = {
       }
     ]
   },
-  contact: {}
+  contact: 'Contact'
 };
 
 export const English = {
@@ -353,5 +353,5 @@ export const English = {
       }
     ]
   },
-  contact: {}
+  contact: 'Contact'
 };

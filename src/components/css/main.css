@@ -51,11 +51,12 @@
   min-height: 100vh;
   background-size: cover;
   display: inline-block;
-  min-width: 100vw;
+  min-width: 99vw;
 }
 
-.big-font {
-  font-size: 3vw;
+.big-font,
+.huge {
+  font-size: 4vw;
 }
 
 .medium-font {
@@ -70,8 +71,21 @@
   font-size: 1.5vw;
 }
 
-#root {
-  overflow-y: hidden;
+.email-style span {
+  color: #da2530;
+}
+
+.languages-flag {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 4.5vw;
+  height: 3vw;
+  margin: 0 0.5vw;
+}
+
+.colorRed {
+  background-color: red;
 }
 
 h1,
@@ -82,4 +96,28 @@ h5,
 p {
   cursor: default;
   user-select: none;
+}
+
+@media (max-width: 992px) {
+  .big-font {
+    font-size: 8vw;
+  }
+
+  .medium-font {
+    font-size: 6vw;
+  }
+
+  .small-font {
+    font-size: 4vw;
+  }
+
+  .default-font {
+    font-size: 3vw;
+  }
+
+  .languages-flag {
+    width: 9vw;
+    height: 6vw;
+    margin: 0 0.2vw;
+  }
 }

@@ -29,7 +29,6 @@ export const TecMenu = ({ qual }) => {
   };
 
   const tecStyle = {
-    fontSize: '1.5vw',
     margin: '0',
     transition: 'border 500ms'
   };
@@ -48,7 +47,7 @@ export const TecMenu = ({ qual }) => {
 
   return (
     <React.Fragment>
-      <div className='col m3 center-align '>
+      <div className='col s12 l3 center-align '>
         <h3 className='col s12 white-text work-font-medium medium-font'>
           {qual.techTitle}
         </h3>
@@ -65,7 +64,7 @@ export const TecMenu = ({ qual }) => {
               className='hover-color open-font'
             >
               <p
-                className='cursor-pointer'
+                className='cursor-pointer medium-font'
                 onClick={() => {
                   selectDesc(index, tec.id);
                 }}

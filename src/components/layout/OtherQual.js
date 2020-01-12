@@ -25,8 +25,8 @@ const OtherQual = ({ qual }) => {
   //_______________________________________
 
   return (
-    <div className='col l3 center-align'>
-      <h3 className='work-font-medium cursor-pointer medium-font white-text'>
+    <div className='col s12 l3 center-align'>
+      <h3 className='work-font-medium cursor-pointer medium-font white-text medium-font'>
         <i
           className='fas fa-chevron-left icon'
           style={{ margin: '0 0.5vw' }}
@@ -44,7 +44,7 @@ const OtherQual = ({ qual }) => {
         return (
           <div key={Math.random()}>
             <p
-              className='open-font default-font white-text'
+              className='open-font white-text medium-font'
               style={{ marginBottom: '0', padding: '0' }}
             >
               {item.name}

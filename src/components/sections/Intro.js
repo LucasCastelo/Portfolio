@@ -12,14 +12,6 @@ const Intro = () => {
   //------------------------------------
   //---------- ATYPICAL CSS ------------
   //------------------------------------
-  const titleStyle = {
-    fontSize: '8vh'
-  };
-
-  const subtitleStyle = {
-    fontSize: '4vh'
-  };
-
   const introStyle = { height: '100%' };
 
   const profileStyles = { height: '8rem', margin: '1rem' };
@@ -35,7 +27,7 @@ const Intro = () => {
     backgroundImage: `url(${bg})`,
     height: '100vh',
     backgroundSize: 'cover',
-    minWidth: '100vw'
+    minWidth: '99vw'
   };
 
   //------------------------------------
@@ -48,12 +40,12 @@ const Intro = () => {
         <LanguageSelector></LanguageSelector>
         <div style={holsterStyles}>
           <div>
-            <h1 style={titleStyle} className='work-font-medium'>
+            <h1 className='work-font-medium big-font'>
               {intro.salute}
-              <span className='red-text work-font'>, </span>
+              <span className='red-text work-font big-font'>, </span>
               {intro.introduction}
             </h1>
-            <h4 style={subtitleStyle} className='work-font-thin'>
+            <h4 className='work-font-thin medium-font'>
               Fullstack Developer Jr.
             </h4>
             <img
