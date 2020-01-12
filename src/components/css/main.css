@@ -54,8 +54,7 @@
   min-width: 99vw;
 }
 
-.big-font,
-.huge {
+.big-font {
   font-size: 4vw;
 }
 
@@ -120,4 +119,8 @@ p {
     height: 6vw;
     margin: 0 0.2vw;
   }
+}
+
+.no-focus {
+  -webkit-tap-highlight-color: transparent;
 }

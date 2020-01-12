@@ -7,6 +7,13 @@ export const TecMenu = ({ qual }) => {
   const [descIndex, setDescIndex] = useState(0);
   const [lastId, setLastId] = useState('');
 
+  const customStyles = {
+    control: (base, state) => ({
+      ...base,
+      boxShadow: 'none'
+    })
+  };
+
   useEffect(() => {
     if (lastId !== '') {
       const idPart = qual.tecs[0].id.slice(0, 2);
@@ -64,11 +71,14 @@ export const TecMenu = ({ qual }) => {
               className='hover-color open-font'
             >
               <p
-                className='cursor-pointer medium-font'
+                className='cursor-pointer medium-font no-focus'
                 onClick={() => {
                   selectDesc(index, tec.id);
                 }}
-                style={tecStyle}
+                style={{
+                  ...tecStyle,
+                  customStyles
+                }}
               >
                 {tec.name}
               </p>

@@ -50,7 +50,10 @@ const Contact = () => {
           </div>
         </div>
         <div className='row' style={{ paddingBottom: '2vw' }}>
-          <h1 className='email-style white-text open-font medium-font center-align col s12'>
+          <h1
+            style={{ cursor: 'text', userSelect: 'text' }}
+            className='email-style white-text open-font medium-font center-align col s12'
+          >
             luc<span>.</span>as<span>.</span>branco<span>@</span>hotmail
             <span>.</span>com
           </h1>
@@ -58,7 +61,7 @@ const Contact = () => {
         <div className='row'>
           <p
             className='white-text small-font work-font-thin center-align s12 col'
-            style={{ margin: '0', paddingBottom: '2vw' }}
+            style={{ margin: '0', paddingBottom: '2vw', userSelect: 'text' }}
           >
             Design & Dev <span className='red-text'>-</span> Lucas Castelo
           </p>
