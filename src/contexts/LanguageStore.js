@@ -130,88 +130,89 @@ export const German = {
     subtitle: 'Fullstack Developer Jr.'
   },
   about: {
-    intro: 'Why are you learning how to code?',
+    intro: 'Warum lernst du programmieren?',
     answer:
-      'I like finding solutions for problems and coding is a way of doing that.',
-    profTitle: 'Professional',
+      'Ich mag es, Lösungen für Probleme zu finden und das Programmieren ist eine Möglichkeit, dies zu tun.',
+    profTitle: 'Beruflich',
     profDesc:
-      "I started learning how to code back in 2015 with C language. Since I was in another field of work, coding was just one of my hobbies until 2017, when I started learning about web development. At that time, I've signed up and finished the full stack Course by Caelum, in São Paulo, Brazil. I found out about react on 2018 and have been specializing in it since then.",
-    persTitle: 'Personal',
+      'Das wichtigste Merkmal in meinem Berufsprofil ist Flexibilität. Ich begann mit 12 Jahren in einem Lebensmittelladen zu arbeiten und hatte seitdem eine Vielzahl von Jobs wie beispielsweise Barmann, DJ, Lagerarbeiter, Verkäufer, Wachmann und Kellner. Zuletzt war ich 2018 als freier Mitarbeiter für den Profifotografen Bruno Hirata in der Bildbearbeitung tätig, bevor ich meine Karriere als Entwickler begann. Im Jahr 2015 begann ich die Programmiersprache C zu lernen. <br/> Bis 2017 war das Programmieren ein Hobby für mich, da ich in einem anderen Fachgebiet arbeitete. <br/> Damals hatte ich meinen ersten Kontakt mit dem Thema Web Development, nachdem ich mich für den Full Stack Kurs von Caelum in São Paulo, Brasilien, angemeldet hatte. <br/><br/> Im Jahr 2018 lernte ich React kennen und habe mich seitdem darauf spezialisiert und suche nach Möglichkeiten, damit zu arbeiten. Zurzeit strebe ich an, Fullstack-Entwickler zu werden, wobei ich Javascript vollständig mit React und Node abdecke.',
+    persTitle: 'Persönliches',
     persDesc:
-      "I love aviation, games and game design. I can't stand the idea of having doubts, so I read anything from neuroscience to economy. You wanna know about a cargo ship? I probably know something about it. I love general trivia. Besides that, I can also play some very popular (not to say cliche) riffs on acoustic guitar, I like cars and motorbikes and I'm eclectic."
+      'Süchtig nach fliegen Spielen und Spieldesign. <br/> Ich kann es nicht ausstehen, Fragen zu haben, was dazu geführt hat, dass ich alles von Neurowissenschaften bis hin zur Wirtschaft gelesen habe, wenn Sie also irgendwelche Fakten über Frachtschiffe wissen wollen, bin ich wahrscheinlich Ihr Mann. Ich liebe Trivia. <br/><br/>Ich besitze einen Kanal auf Youtube, der zur Zeit inaktiv ist, in dem ich über Spieldesign für Indie-Entwickler (Zingue-Zangue) spreche. Ich habe zwei unvollendete Abschlüsse, in Informatik und einen weiteren in Game Development, ich habe eine Vorliebe für Modellierung, Filme und 3D-Animation, so dass ich schließlich Erfahrung mit Blender, Maya und Substance Painter habe. Ich bin auch ein Fan des deutschen Expressionismus, auch bekannt als Tim Burton Stil.<br/>Ab und zu spiele ich Airsoft, aber digitale Spiele sind genau mein Ding, von Tetris bis hin zu League of Legends. <br/><br/>Andere kleinere Hobbies sind das Spielen von kitschigen Riffs auf der Akustikgitarre, Autos und Motorräder.'
   },
   qual: {
-    intro: 'Why React?',
-    answer: 'Before React, coding was the boring part of development.',
-    learn: 'How did you learn?',
-    ready: 'Are you ready to start woking with it?',
-    status: 'Current status',
-    techTitle: 'Technology',
+    intro: 'Warum React?',
+    answer:
+      'Vor React war das Programmieren der langweilige Teil der Entwicklung.',
+    learn: 'Wie hast du es gelernt?',
+    ready: 'Bist du bereit, damit zu arbeiten?',
+    status: 'Aktueller Stand',
+    techTitle: 'Technik',
     tecs: [
       {
         id: 'GR0',
         name: 'React.js',
         learn:
-          "I've learned React online with courses from Udemy, Lynda and other platforms.",
+          'Ich habe React online mit Kursen von Udemy, Lynda und anderen Plattformen gelernt.',
         ready:
-          "I believe so, even though I didn't work on profissional projects yet, I'm confident that I'm comfortable with React.",
-        status: 'Ready to work while I improve my skills.'
+          'Ich glaube ja, auch wenn ich noch nicht an professionellen Projekten gearbeitet habe, bin ich zuversichtlich, dass ich mich mit React wohl fühle.',
+        status: 'Bereit zu arbeiten, während ich meine Fähigkeiten verbessere.'
       },
       {
         id: 'GR1',
         name: 'Node',
         learn:
-          "I'm still learning Node and have a basic idea of it. I'm focusing on being an expert on React first.",
+          'Ich bin immer noch dabei, Node zu lernen, besitze aber ein Grundverständnis davon. Ich konzentriere mich zuerst darauf, ein Experte für React zu werden.',
         ready:
-          "No, I have a base knowledge about it, but I'm not able to fully develop an app on Node.",
-        status: 'Learning'
+          'Nein, ich habe ein Basiswissen darüber, aber ich bin nicht in der Lage, eine App auf Node vollständig selbst zu entwickeln.',
+        status: 'Lernen'
       },
       {
         id: 'GR2',
         name: 'React Native',
         learn:
-          "I didn't start learning this yet, but I have plans to focus on it after finishind the Node course.",
+          'Ich habe noch nicht angefangen, dies zu lernen, aber ich plane dies nach dem Abschluss des Node-Kurses zu tun.',
         ready:
-          "No. I know the technology and its capabilities, but I'm not able of developing an app with it.",
-        status: 'Learning'
+          'Nein. Ich kenne die Technologie und ihre Möglichkeiten, aber ich bin nicht in der Lage, eine App damit zu entwickeln.',
+        status: 'Lernen'
       },
       {
         id: 'GR3',
         name: 'Javascript(ES6)',
         learn:
-          "Javascript is the language I'm more comfortable with and know best, including the last resources from ES6.",
+          'Javascript ist die Sprache, mit der ich am besten vertraut bin und die ich am besten kenne, einschließlich der letzten Informationen von ES6.',
         ready:
-          'Absolutely, extremely comfortable with lesser improvements to be worked on.',
-        status: 'Ready to work.'
+          'Absolut, extrem komfortabel mit weniger Verbesserungsmöglichkeiten auf die ich mich konzentrieren kann.',
+        status: 'Bereit zum Arbeiten'
       },
       {
         id: 'GR4',
         name: 'HTML & CSS',
         learn:
-          'I have a solid knowledge on both languages, though CSS has some minor challenges for me.',
+          'Ich habe ein solides Wissen über beide Sprachen, obwohl CSS weniger eine Herausforderung für mich darstellt.',
         ready:
-          "Yes. I've worked with SASS and Bootstrap for CSS. Currently I use Materialize.",
-        status: 'Ready to work'
+          'Ja. Ich habe mit SASS und Bootstrap für CSS gearbeitet. Zur Zeit benutze ich Materialize.',
+        status: 'Bereit zum Arbeiten.'
       }
     ],
     others: [
       {
-        name: 'Idiomas',
+        name: 'Sprachen',
         items: [
-          { name: 'Portugues', desc: 'Nativo' },
-          { name: 'Inglês', desc: 'Avançado' },
-          { name: 'Alemão', desc: 'Aprendendo' }
+          { name: 'Portugiesische', desc: 'Eingeborener' },
+          { name: 'Englisch', desc: 'Fortgeschrittene' },
+          { name: 'Deutsch', desc: 'Lernen' }
         ]
       },
       {
         name: 'Outros',
         items: [
-          { name: 'Photoshop', desc: 'Proficiente' },
-          { name: 'Illustrator', desc: 'Intermediario' },
-          { name: 'UX/UI', desc: 'Basico' },
-          { name: 'Design Grafico', desc: 'Basico' },
-          { name: 'Game Design', desc: 'Avançado' },
-          { name: 'Unity 3D', desc: 'Basico' }
+          { name: 'Photoshop', desc: 'Fortgeschrittene' },
+          { name: 'Illustrator', desc: 'Mittelstufe' },
+          { name: 'UX/UI', desc: 'Basic' },
+          { name: 'Grafik Design', desc: 'Basic' },
+          { name: 'Game Design', desc: 'Fortgeschrittene' },
+          { name: 'Unity 3D', desc: 'Basic' }
         ]
       }
     ]
