@@ -19,7 +19,7 @@ const Qualifications = () => {
         <div className='row'>
           <TecMenu qual={qual} />
         </div>
-        <Separator />
+        <Separator cssProp={{ marginBottom: '2vh' }} />
       </div>
     </div>
   );

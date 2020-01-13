@@ -10,7 +10,8 @@ const Contact = () => {
   const bgStyle = {
     backgroundImage: `url(${bg})`,
     height: 'auto',
-    display: 'block'
+    display: 'block',
+    position: 'absolute'
   };
 
   const iconsStyle = {

@@ -27,7 +27,7 @@ const Intro = () => {
     backgroundImage: `url(${bg})`,
     height: '100vh',
     backgroundSize: 'cover',
-    minWidth: '99vw'
+    minWidth: '100%'
   };
 
   //------------------------------------

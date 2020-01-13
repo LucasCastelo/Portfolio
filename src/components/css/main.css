@@ -48,10 +48,17 @@
 }
 
 .bg-style {
-  min-height: 100vh;
+  min-height: 100%;
   background-size: cover;
   display: inline-block;
-  min-width: 99vw;
+  min-width: 100%;
+  max-width: 99vw;
+}
+
+.bg-style-contact {
+  background-size: cover;
+  min-width: 100%;
+  max-width: 99vw;
 }
 
 .big-font {
@@ -123,4 +130,9 @@ p {
 
 .no-focus {
   -webkit-tap-highlight-color: transparent;
+}
+
+#root {
+  overflow-y: hidden;
+  height: min-content;
 }
